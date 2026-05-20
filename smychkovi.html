@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Смичкові - Каталог</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+            background-image: url('https://images.pexels.com/photos/25959299/pexels-photo-25959299.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        .wrapper {
+            background-color: rgba(255, 253, 240, 0.95);
+            width: 90%;
+            max-width: 600px;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 0 40px rgba(0,0,0,0.6);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        header {
+            padding: 30px;
+            text-align: center;
+            background-color: #f2ead3;
+            border-bottom: 2px solid #333;
+        }
+
+        h1 { margin: 0; font-size: 24px; color: #333; text-transform: uppercase; }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav li {
+            margin: 5px 15px;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+
+        nav li a:hover {
+            color: #e67e22;
+        }
+
+        main { flex: 1; padding: 30px 20px; text-align: center; }
+
+        .item {
+            margin-bottom: 50px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .item img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .name { font-size: 22px; font-weight: bold; margin: 15px 0 5px; color: #2c3e50; }
+        .price { color: #27ae60; font-size: 20px; font-weight: bold; margin-bottom: 10px; }
+        .desc { font-size: 15px; color: #555; line-height: 1.6; }
+
+        footer {
+            background: #333;
+            color: #f2ead3;
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <header>
+        <h1>Каталог Смичкових</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="gitary.html">Гітари</a></li>
+            <li><a href="klavishni.html">Клавішні</a></li>
+            <li><a href="udarni.html">Ударні</a></li>
+            <li><a href="smychkovi.html" style="color: #e67e22;">Смичкові</a></li>
+            <li><a href="aksessuary.html">Аксесуари</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="item">
+            <img src="https://4club.com.ua/images/ab__webp/thumbnails/550/450/detailed/167/Yamaha%20V5SA%204-4.webp" alt="Скрипка">
+            <div class="name">Акустична скрипка</div>
+            <div class="price">10 400 грн</div>
+            <div class="desc">Витончений класичний інструмент з яскравим та мелодійним звучанням. Комплектується надійним смичком та зручним кейсом.</div>
+        </div>
+
+        <div class="item">
+            <img src="https://jam.ua/images/item/440/11865200.611a5bdf5c71f.jpg" alt="Альт">
+            <div class="name">Музичний альт</div>
+            <div class="price">11 200 грн</div>
+            <div class="desc">Трохи більший за скрипку інструмент із густим, оксамитовим та більш глибоким тембром. Чудовий вибір для оркестру.</div>
+        </div>
+
+        <div class="item">
+            <img src="https://muzikant.ua/wa-data/public/shop/products/00/webp/05/53/115305/images/169111/169111.440.webp" alt="Віолочель">
+            <div class="name">Віолончель</div>
+            <div class="price">25 000 грн</div>
+            <div class="desc">Великий інструмент із глибоким, чуттєвим та низьким звуком, що за своїм тембром дуже нагадує людський голос.</div>
+        </div>
+
+        <div class="item">
+            <img src="https://mmaster.com.ua/img/site/pmax/1088_img1_%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B1%D0%B0%D1%81%20Rubner%20%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20%E2%84%9667..jpg" alt="Контрабас">
+            <div class="name">Контрабас</div>
+            <div class="price">39 500 грн</div>
+            <div class="desc">Найбільший інструмент сімейства з найнижчим звучанням. Створює потужний фундамент як в оркестрі, так і в джазі.</div>
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>Контакти:</strong> м. Тернопіль, вул. Музична, 13</p>
+        <p>📞 +38 (0хх) ххх-хх-хх | Пн-Сб: 8:00 - 22:00</p>
+        <p>&copy; Магазин Музичних Інструментів. Всі права захищені.</p>
+    </footer>
+</div>
+
+</body>
+</html>

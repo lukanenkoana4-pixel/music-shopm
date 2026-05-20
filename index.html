@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музичні інструменти - Головна</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAwdtbjy7xLPhZQgvnsvK2PlU6FSDAgkjfHg&s'); 
+            background-size: contain;
+            background-repeat: repeat;
+            font-family: Arial, sans-serif;
+        }
+
+        .wrapper {
+            background-color: #fffdf0; 
+            width: 95%;
+            max-width: 800px;
+            min-height: 100vh;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 0 30px rgba(0,0,0,0.4);
+            box-sizing: border-box;
+        }
+
+        header {
+            padding: 40px 20px 20px;
+            text-align: center;
+        }
+
+        .border-box {
+            border: 3px solid #333;
+            padding: 15px 25px;
+            display: inline-block;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 26px;
+            text-transform: uppercase;
+            color: #333;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav li {
+            margin: 5px 15px;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav li a:hover {
+            color: #e67e22;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px 30px;
+        }
+
+        h2, h3 {
+            color: #444;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        .banner {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .banner img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .promo-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0 30px;
+            background-color: #fff;
+        }
+
+        .promo-table th, .promo-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .promo-table th {
+            background-color: #f4f1de;
+            color: #333;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; 
+            height: 0;
+            overflow: hidden;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .feedback-form {
+            background: #f4f1de;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .feedback-form form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .feedback-form input, .feedback-form textarea, .feedback-form button {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .feedback-form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .feedback-form button:hover {
+            background-color: #e67e22;
+        }
+
+        .info-block {
+            background-color: #f9f6e5;
+            padding: 30px 20px;
+            border-top: 2px solid #333;
+            text-align: center;
+        }
+
+        .info-block p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        
+        <header>
+            <div class="border-box">
+                <h1>МУЗИЧНІ ІНСТРУМЕНТИ</h1>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="gitary.html">Гітари</a></li>
+                <li><a href="klavishni.html">Клавішні</a></li>
+                <li><a href="udarni.html">Ударні</a></li>
+                <li><a href="smychkovi.html">Смичкові</a></li>
+                <li><a href="aksessuary.html">Аксесуари</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            
+            <div class="banner">
+                <img src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=800&auto=format&fit=crop" alt="Музичний магазин">
+            </div>
+
+            <article>
+                <h2>Ласкаво просимо до нашого магазину!</h2>
+                <p style="text-align: center; font-size: 18px; color: #555; line-height: 1.6;">
+                    У нас ви знайдете найкращі інструменти для вашої творчості: від класичних гітар до професійних ударних установок. Оберіть категорію вище, щоб перейти до каталогу товарів.
+                </p>
+            </article>
+
+            <section>
+                <h3>🔥 Акції тижня</h3>
+                <table class="promo-table">
+                    <thead>
+                        <tr>
+                            <th>Товар</th>
+                            <th>Стара ціна</th>
+                            <th>Нова ціна</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Акустична гітара Fender</td>
+                            <td><del>8 500 грн</del></td>
+                            <td style="color: #e67e22; font-weight: bold;">6 999 грн</td>
+                        </tr>
+                        <tr>
+                            <td>Синтезатор Yamaha</td>
+                            <td><del>14 200 грн</del></td>
+                            <td style="color: #e67e22; font-weight: bold;">12 500 грн</td>
+                        </tr>
+                        <tr>
+                            <td>Комплект барабанних паличок</td>
+                            <td><del>600 грн</del></td>
+                            <td style="color: #e67e22; font-weight: bold;">450 грн</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+<section style="text-align: center; margin-bottom: 30px;">
+    <h3>🎥 Відео-огляд інструментів</h3>
+    <a href="https://youtube.com/shorts/m5pULWssNDU" target="_blank" style="text-decoration: none; display: inline-block; position: relative;">
+        <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?q=80&w=500&auto=format&fit=crop" alt="Дивитись відео" style="max-width: 100%; width: 315px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); display: block;">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(230, 126, 34, 0.9); color: #fff; padding: 15px 25px; border-radius: 50px; font-weight: bold; font-size: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.4);">
+            ▶ Дивитись на YouTube
+        </div>
+    </a>
+</section>
+            <section class="feedback-form">
+                <h3>Вам потрібна допомога у виборі?</h3>
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Ваше ім'я" required>
+                    <input type="email" name="email" placeholder="Ваш Email" required>
+                    <textarea name="message" rows="4" placeholder="Який інструмент або аксесуар вас цікавить?" required></textarea>
+                    <button type="submit">Надіслати запит</button>
+                </form>
+            </section>
+
+        </main>
+
+        <section class="info-block">
+            <h3 style="margin-bottom: 15px; border: none;">Наші контакти:</h3>
+            <p><strong>📍 Адреса:</strong> м. Тернопіль, вул. Музична, 13</p>
+            <p><strong>📞 Телефон:</strong> +38 (0хх) ххх-хх-хх</p>
+            <p><strong>⏰ Режим роботи:</strong> Пн-Сб: 9:00 - 20:00</p>
+        </section>
+
+        <footer>
+            <p>&copy; Магазин Музичних Інструментів. Всі права захищені.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
